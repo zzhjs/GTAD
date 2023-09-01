@@ -7,7 +7,7 @@ library(DropletUtils)
 sc.count <- read.csv("./data/scRNA_data.csv", header=T, row.names = 1,check.names=FALSE)
 metadata <- read.csv("./data/data/scRNA_meta.csv", row.names=1, header=T,check.names=FALSE)
 #ST_data.csv:gene×spot
-st.count <- read.csv(p"./data/data/ST_data.csv", header=T, row.names = 1,check.names=FALSE)
+st.count <- read.csv("./data/data/ST_data.csv", header=T, row.names = 1,check.names=FALSE)
 
 # metadata <- metadata[metadata$cell_subclass != "", ]
 metadata[,'cell_subclass'][metadata[,'cell_subclass']==""]="NAN"
