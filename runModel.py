@@ -768,4 +768,4 @@ q=labels[pred_mask[0]]
 csv_file = "./Infor_Data/ST_label/ST_label_2.csv"
 df_original = pd.read_csv(csv_file, index_col=0)
 column_names = df_original.columns
-pd.DataFrame(p,columns=column_names).to_csv("p.csv",index=None)
+pd.DataFrame(p,columns=column_names).to_csv("result.csv",index=None)
