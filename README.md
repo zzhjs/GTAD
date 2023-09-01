@@ -27,7 +27,7 @@ This model requires you to create a 'data' folder in the current directory to st
 
 ```
 python geneFilter.py
-Rscript makePusuo.R
+Rscript makePseudo.R
 python getGraph.py
 python runModel.py
 ```
