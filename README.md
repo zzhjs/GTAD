@@ -1,4 +1,4 @@
-![7A6E58CCDCA2670B42B6386B965CE0AA](https://github.com/zzhjs/GTAD/assets/44659470/6f910896-be77-48e5-a02c-cf1802b29ed0)﻿# GTAD: A Graph-based Approach for Cell Spatial Composition Inference from Integrated scRNA-seq and ST-seq Data
+# GTAD: A Graph-based Approach for Cell Spatial Composition Inference from Integrated scRNA-seq and ST-seq Data
 
 ## Requirements
 
